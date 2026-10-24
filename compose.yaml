@@ -1,0 +1,8 @@
+services:
+  cloudforge:
+    build: .
+    container_name: cloudforge-web
+    ports:
+      - "9092:80"
+    restart: unless-stopped
+

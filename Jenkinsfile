@@ -11,7 +11,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t cloudforge-cloudforge:latest .'
+                sh 'docker build -t cloudforge:latest .'
             }
         }
 
